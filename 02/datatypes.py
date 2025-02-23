@@ -35,5 +35,17 @@ print(len(username))
 username = "chaiaurcode"
 # SO this is basically treating 2 as out index
 print(username[2]) 
-# Now basically in this 
+# Now basically in this id we give the negative index in this Cse basically
+print(username[-1]) #So in this case the counting will start from behind
+
+
+# SLicing
+print(username[1:3]) #So output will be ha basically 1 and 2 
+
+# We have a dir methiod
+dir(username)
+
+# In Python LIst is equal to array
+myList = [1,2,4];
+print(myList)
 
