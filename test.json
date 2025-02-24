@@ -1,0 +1,135 @@
+{
+    "company": {
+      "name": "TechCorp",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "employees": [
+            {
+              "id": 101,
+              "name": "Alice Johnson",
+              "role": "Software Engineer",
+              "skills": ["JavaScript", "TypeScript", "Node.js"],
+              "projects": [
+                {
+                  "id": "P001",
+                  "name": "AI Chatbot",
+                  "status": "In Progress",
+                  "tasks": [
+                    {
+                      "taskId": "T101",
+                      "description": "Build NLP module",
+                      "status": "Completed",
+                      "assignee": {
+                        "id": 101,
+                        "name": "Alice Johnson"
+                      },
+                      "dependencies": ["T100"]
+                    },
+                    {
+                      "taskId": "T102",
+                      "description": "Develop API",
+                      "status": "Pending",
+                      "assignee": {
+                        "id": 102,
+                        "name": "Bob Smith"
+                      },
+                      "dependencies": ["T101"]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 102,
+              "name": "Bob Smith",
+              "role": "Backend Developer",
+              "skills": ["Go", "PostgreSQL", "Docker"],
+              "projects": [
+                {
+                  "id": "P002",
+                  "name": "Cloud Optimization",
+                  "status": "Completed",
+                  "tasks": [
+                    {
+                      "taskId": "T201",
+                      "description": "Migrate to Kubernetes",
+                      "status": "Completed",
+                      "assignee": {
+                        "id": 102,
+                        "name": "Bob Smith"
+                      },
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Marketing",
+          "employees": [
+            {
+              "id": 201,
+              "name": "Charlie Adams",
+              "role": "SEO Specialist",
+              "skills": ["SEO", "Content Marketing"],
+              "projects": [
+                {
+                  "id": "P003",
+                  "name": "Website Revamp",
+                  "status": "In Progress",
+                  "tasks": [
+                    {
+                      "taskId": "T301",
+                      "description": "Keyword Research",
+                      "status": "Completed",
+                      "assignee": {
+                        "id": 201,
+                        "name": "Charlie Adams"
+                      },
+                      "dependencies": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "finance": {
+        "budget": 5000000,
+        "expenses": [
+          {
+            "id": "E001",
+            "description": "Cloud Services",
+            "amount": 120000,
+            "date": "2024-02-01"
+          },
+          {
+            "id": "E002",
+            "description": "Salaries",
+            "amount": 3500000,
+            "date": "2024-02-15"
+          }
+        ]
+      },
+      "metadata": {
+        "createdAt": "2022-01-01T00:00:00Z",
+        "updatedAt": "2025-02-24T12:00:00Z",
+        "version": "2.3.1",
+        "settings": {
+          "timezone": "UTC",
+          "currency": "USD",
+          "features": {
+            "AI_Enabled": true,
+            "CloudBackup": false
+          }
+        }
+      }
+    }
+  }
+  
